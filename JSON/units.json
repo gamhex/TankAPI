@@ -1,0 +1,85 @@
+{
+  "Germany": {
+    "tanks": [
+      {
+        "id": 1,
+        "points": 60,
+        "name": "King Tiger",
+        "move": 6,
+        "accuracy": 20,
+        "penetration": 20,
+        "infantry_attack": 12,
+        "close_assault": 10,
+        "front": 20,
+        "side_rear": 12
+      },
+      {
+        "id": 2,
+        "points": 52,
+        "name": "Tiger I",
+        "move": 8,
+        "accuracy": 20,
+        "penetration": 12,
+        "infantry_attack": 12,
+        "close_assault": 10,
+        "front": 20,
+        "side_rear": 12
+      }
+    ],
+    "aircraft": [
+    ],
+    "self-propelled guns": [
+    ],
+    "artillery guns": [
+    ],
+    "transport": [
+    ],
+    "anti-tank guns": [
+    ],
+    "anti-aircraft": [
+    ],
+    "armored cars": [
+    ],
+    "infantry": [
+    ]
+  },
+  "Russia": {
+    "tanks": [
+      {
+        "id": 3,
+        "points": 60,
+        "name": "JS-II",
+        "move": 10,
+        "accuracy": 20,
+        "penetration": 20,
+        "infantry_attack": 12,
+        "close_assault": 10,
+        "front": 20,
+        "side_rear": 12
+      }
+    ],
+    "aircraft": [
+    ],
+    "self-propelled guns": [
+    ],
+    "artillery guns": [
+    ],
+    "transport": [
+    ],
+    "anti-tank guns": [
+    ],
+    "anti-aircraft": [
+    ],
+    "armored cars": [
+    ],
+    "infantry": [
+    ]
+  }
+}
+
+
+
+
+
+
+

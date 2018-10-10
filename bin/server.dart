@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:args/args.dart';
 import 'package:shelf/shelf.dart' as shelf;
 import 'package:shelf/shelf_io.dart' as io;
+import 'servicerouter.dart';
 
 main(List<String> args) async {
   var parser = new ArgParser()
@@ -34,7 +35,16 @@ main(List<String> args) async {
 //    new shelf.Response.ok('Request for "${request.url}"');
 
 shelf.Response _decideResponse(shelf.Request request){
-  
+  String output;
+  ResponseBuilder responseBuilder = ResponseBuilder();
+
+
+  if request.method=="GET"{
+
+  } else {
+
+  }
+
 
 
   return shelf.Response.ok('"${request.url}"');
